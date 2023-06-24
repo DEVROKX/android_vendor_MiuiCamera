@@ -25,7 +25,8 @@ git clone https://gitlab.com/SonalSingh18/vendor_xiaomi_miuicamera.git -b thirte
 
 • Done, continue building your ROM as you do normally.
 
-• Additionally for shipping MiuiGallery along with MiuiCamera in ur builds
+• Additionally for shipping MiuiGallery and MiuiScanner along with MiuiCamera in ur builds
 ```
 export TARGET_SHIPS_GALLERY=true
+export TARGET_SHIPS_SCANNER=true
 ```
